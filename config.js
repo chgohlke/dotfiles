@@ -3,6 +3,7 @@ module.exports = {
     // http://conqueringthecommandline.com/book/ack_ag
     'ack',
     'ag',
+    'ansible',
     // https://github.com/wting/autojump
     'autojump',
     // alternative to `cat`: https://github.com/sharkdp/bat
@@ -48,7 +49,14 @@ module.exports = {
     'vim --with-client-server --with-override-system-vi',
     'watch',
     // Install wget with IRI support
-    'wget --enable-iri'
+    'wget --enable-iri',
+    //chgohlke adde
+    'imagemagick',
+    'awscli',
+    'hub',
+    'yarn',
+    'exiftool',
+    'jenv'
   ],
   cask: [
     //'adium',
@@ -58,52 +66,58 @@ module.exports = {
     //'comicbooklover',
     //'diffmerge',
     'docker', // docker for mac
-    //'dropbox',
+    'dropbox',
     //'evernote',
     'flux',
     'gpg-suite',
     //'ireadfast',
     'iterm2',
+    'keybase',
     'little-snitch',
-    'macbreakz',
+    //'macbreakz',
     'micro-snitch',
     'signal',
     //'macvim',
-    'sizeup',
+    //'sizeup',
     //'sketchup',
     'slack',
+    'spotify',
     'the-unarchiver',
     //'torbrowser',
     //'transmission',
     'visual-studio-code',
-    //'vlc',
-    'xquartz'
+    'vlc',
+    //'xquartz',
+    'java',
+    'visualvm',
+    'kafka-tool',
+    'sublime-text',
+    'libreoffice',
+    'keepassxc',
+    'keepingyouawake',
+    'intellij-idea',
+    'vivaldi',
+    'tunnelblick',
+    'firefox',
+    'teamviewer',
+    'whatsapp'
   ],
   gem: [
   ],
   npm: [
-    'antic',
-    'buzzphrase',
-    'eslint',
-    'instant-markdown-d',
+    //'antic',
+    //'buzzphrase',
+    //'eslint',
+    //'instant-markdown-d',
     // 'generator-dockerize',
     // 'gulp',
-    'npm-check-updates',
-    'prettyjson',
-    'trash',
-    'vtop'
+    //'npm-check-updates',
+    //'prettyjson',
+    //'trash',
+    //'vtop'
     // ,'yo'
-  ],
-  mas: [
-    //com.apple.dt.Xcode (10.2.1)
-    '497799835',
-    //com.if.Amphetamine (4.1.6)
-    //'937984704',
-    //net.shinyfrog.bear (1.6.15)
-    //'1091189122',
-    //com.monosnap.monosnap (3.5.8)
-    //'540348655',
-    //com.app77.pwsafemac (4.17)
-    //'520993579',
+    'serverless',
+    'webpack',
+    'jshint'
   ],
 };
